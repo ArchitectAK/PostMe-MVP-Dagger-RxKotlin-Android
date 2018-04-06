@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PostMe.iml" filepath="$PROJECT_DIR$/PostMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PostMe-MVP-Dagger-RxKotlin-Android.iml" filepath="$PROJECT_DIR$/PostMe-MVP-Dagger-RxKotlin-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
