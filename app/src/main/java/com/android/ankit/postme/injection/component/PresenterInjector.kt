@@ -3,6 +3,7 @@ package com.android.ankit.postme.injection.component
 import com.android.ankit.postme.base.BaseView
 import com.android.ankit.postme.injection.module.ContextModule
 import com.android.ankit.postme.injection.module.NetworkModule
+import com.android.ankit.postme.presenter.PostPresenter
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

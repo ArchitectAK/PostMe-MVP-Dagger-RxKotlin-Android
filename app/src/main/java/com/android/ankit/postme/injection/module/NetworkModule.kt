@@ -1,5 +1,7 @@
 package com.android.ankit.postme.injection.module
 
+import com.android.ankit.postme.network.PostAPI
+import com.android.ankit.postme.utils.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable

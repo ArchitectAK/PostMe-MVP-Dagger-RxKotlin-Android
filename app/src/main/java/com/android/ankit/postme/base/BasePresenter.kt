@@ -1,6 +1,10 @@
 package com.android.ankit.postme.base
 
+import com.android.ankit.postme.injection.component.DaggerPresenterInjector
 import com.android.ankit.postme.injection.component.PresenterInjector
+import com.android.ankit.postme.injection.module.ContextModule
+import com.android.ankit.postme.injection.module.NetworkModule
+import com.android.ankit.postme.presenter.PostPresenter
 
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 05/04/2018 (MM/DD/YYYY )

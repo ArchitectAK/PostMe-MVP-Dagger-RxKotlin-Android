@@ -2,6 +2,8 @@ package com.android.ankit.postme.presenter
 
 import com.android.ankit.postme.R
 import com.android.ankit.postme.base.BasePresenter
+import com.android.ankit.postme.network.PostAPI
+import com.android.ankit.postme.view.PostView
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
@@ -12,7 +14,7 @@ import javax.inject.Inject
  */
 class PostPresenter(postView: PostView) : BasePresenter<PostView>(postView) {
     @Inject
-    lateinit var postApi: PostApi
+    lateinit var postApi: PostAPI
 
     private var subscription: Disposable? = null
 

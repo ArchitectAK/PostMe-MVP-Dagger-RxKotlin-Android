@@ -1,9 +1,12 @@
 package com.android.ankit.postme.view
 
 import android.content.Context
+import android.databinding.DataBindingUtil
+import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.android.ankit.postme.R
+import com.android.ankit.postme.databinding.ItemPostBinding
 import com.android.ankit.postme.model.PostModel
 
 /**
@@ -15,7 +18,7 @@ class PostAdapter(private val context: Context) : RecyclerView.Adapter<PostAdapt
      */
     private var posts: List<PostModel> = listOf()
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): PostViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val layoutInflater = LayoutInflater.from(context)
         val binding: ItemPostBinding = DataBindingUtil.inflate(layoutInflater, R.layout.item_post, parent, false)
         return PostViewHolder(binding)
@@ -25,8 +28,8 @@ class PostAdapter(private val context: Context) : RecyclerView.Adapter<PostAdapt
         return posts.size
     }
 
-    override fun onBindViewHolder(holder: PostViewHolder?, position: Int) {
-        holder?.bind(posts[position])
+    override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
+        holder.bind(posts[position])
     }
 
     /**

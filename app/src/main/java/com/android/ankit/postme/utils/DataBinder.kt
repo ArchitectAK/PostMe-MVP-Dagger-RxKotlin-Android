@@ -5,7 +5,7 @@ import com.android.ankit.postme.view.PostAdapter
 import android.databinding.BindingAdapter
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.RecyclerView
-import net.gahfy.feedme.ui.post.PostAdapter
+
 
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 10/04/2018 (MM/DD/YYYY )

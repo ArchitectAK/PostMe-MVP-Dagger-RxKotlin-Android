@@ -1,11 +1,15 @@
 package com.android.ankit.postme.view
 
+import android.databinding.DataBindingUtil
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.DividerItemDecoration
+import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
 import com.android.ankit.postme.R
 import com.android.ankit.postme.base.BaseActivity
+import com.android.ankit.postme.databinding.ActivityPostBinding
 import com.android.ankit.postme.model.PostModel
 import com.android.ankit.postme.presenter.PostPresenter
 
