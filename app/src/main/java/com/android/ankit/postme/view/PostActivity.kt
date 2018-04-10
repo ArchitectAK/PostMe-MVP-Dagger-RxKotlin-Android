@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Toast
 import com.android.ankit.postme.R
 import com.android.ankit.postme.base.BaseActivity
+import com.android.ankit.postme.model.PostModel
 import com.android.ankit.postme.presenter.PostPresenter
 
 
@@ -41,7 +42,7 @@ class PostActivity  : BaseActivity<PostPresenter>(), PostView {
         presenter.onViewDestroyed()
     }
 
-    override fun updatePosts(posts: List<Post>) {
+    override fun updatePosts(posts: List<PostModel>) {
         postsAdapter.updatePosts(posts)
     }
 
